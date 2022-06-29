@@ -19,5 +19,18 @@ code {
   margin-top: 1%;
   padding-top: 0;
   display: inline-block;
-  width: auto;
+  width: auto;  
+}
+
+.top
+{
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.card-body
+{
+  background-color: rgb(253, 243, 230);
 }
