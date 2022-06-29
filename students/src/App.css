@@ -37,3 +37,23 @@
   }
 }
 
+.container
+{
+  text-align: center;
+}
+
+.menu
+{
+  margin: 3%;
+  
+}
+
+.menuLink
+{
+  padding: 3%;
+}
+
+.student-container
+{
+  margin-top: 5%;
+}

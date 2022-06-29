@@ -16,29 +16,24 @@ import {
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="menu">
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/About">About Us</Link>
-            </li>
-            <li>
-              <Link to="/Contact">Contact Us</Link>
-            </li>
-          </ul>
-          <div className="student-container">
-            <StudentList />
+      <div className='container'>
+        <Router >
+          <div className="menu">
+            <Link className="menuLink" to="/">Home</Link>
+            <Link className="menuLink" to="/About">About Us</Link>
+            <Link className="menuLink" to="/Contact">Contact Us</Link>
+            <div className="student-container">
+              <StudentList />
+            </div>
           </div>
-        </div>
-        <Routes>
-          <Route exact path='/' element={< Home />}></Route>
-          <Route exact path='/About' element={< About />}></Route>
-          <Route exact path='/Contact' element={< Contact />}></Route>
-        </Routes>
-      </Router>
+          <Routes>
+            <Route exact path='/' element={< Home />}></Route>
+            <Route exact path='/About' element={< About />}></Route>
+            <Route exact path='/Contact' element={< Contact />}></Route>
+          </Routes>
+        </Router>
+      </div>
+
     );
   }
 }
