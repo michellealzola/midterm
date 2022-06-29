@@ -45,15 +45,33 @@
 .menu
 {
   margin: 3%;
+  padding: 1%;
+  background-color: rgb(243, 232, 218);
+  font-size: 150%;
+  font-weight: 600;
+  
   
 }
 
 .menuLink
 {
-  padding: 3%;
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-style: normal;
+  text-decoration: none;
+  color: brown;
+}
+
+.menuLink:hover
+{
+  background-color: brown;
+  color: white;
 }
 
 .student-container
 {
-  margin-top: 5%;
+  margin-top: 1%;  
+  text-align: center;
+  
 }

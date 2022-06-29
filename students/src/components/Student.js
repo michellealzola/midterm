@@ -1,16 +1,15 @@
 import React from 'react'
 import { Button } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
-
-
+import '../index.css';
 
 function Student({ student }) {
     return (
-        <div>        
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={student.image} width={150} />
+        <div className='card-container'>        
+        <Card style={{ width: '20rem' }}>
+            <Card.Img variant="top" src={student.image} />
             <Card.Body>
-                <Card.Title>Name:{student.name}</Card.Title>
+                <Card.Title>Name: {student.name}</Card.Title>
                 <Card.Text>
                     GPA: {student.gpa}
                 </Card.Text>

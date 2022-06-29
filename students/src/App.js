@@ -22,9 +22,9 @@ class App extends Component {
             <Link className="menuLink" to="/">Home</Link>
             <Link className="menuLink" to="/About">About Us</Link>
             <Link className="menuLink" to="/Contact">Contact Us</Link>
-            <div className="student-container">
-              <StudentList />
-            </div>
+          </div>
+          <div className="student-container">
+            <StudentList />
           </div>
           <Routes>
             <Route exact path='/' element={< Home />}></Route>
