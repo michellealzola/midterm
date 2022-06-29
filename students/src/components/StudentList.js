@@ -1,6 +1,7 @@
 import React from 'react'
 import Student from './Student';
 
+
 function StudentList() {
     const students = 
     [
