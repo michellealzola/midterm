@@ -2,12 +2,10 @@ import React from 'react';
 
 function About () {
 	return <div>
-		<h2>GeeksforGeeks is a computer science portal for geeks!</h2>
-
-		Read more about us at :
-		<a href="https://www.geeksforgeeks.org/about/">
-			https://www.geeksforgeeks.org/about/
-		</a>
+		<h2>Math Squad is a portal for all Math Lovers!</h2>
+		<p>Read more about us at: <br/>
+		<a href="https://www.sait.ca">Southern Alberta Institute of Technology</a>
+		</p>
 	</div>
 }
 export default About;
